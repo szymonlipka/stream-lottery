@@ -1,0 +1,26 @@
+I"J(function() {
+  $(document).ready(function() {
+    var animation, move, owl;
+    owl = $("#owl");
+    owl.owlCarousel({
+      loop: true,
+      pagination: false,
+      autoplay: false,
+      mouseDrag: false
+    });
+    move = setInterval(animation, 50);
+    animation = function() {
+      $('.owl-stage').css('transition', '12000ms ease 0s');
+      if (Math.random() * 100 === 2) {
+        return clearInterval(move);
+      }
+    };
+    $('.open-btn').click(function(e) {
+      e.preventDefault();
+      return animation();
+    });
+    return $('.line').show();
+  });
+
+}).call(this);
+:ET
