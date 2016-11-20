@@ -3,6 +3,7 @@
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w( owl.carousel.css owl.theme.css owl.carousel.js )
+Rails.application.config.assets.precompile += %w( application.css.scss lottery_tickets.sass lottery_tickets.coffee background.jpg )
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
 
