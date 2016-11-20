@@ -1,0 +1,23 @@
+%h1 Listing lottery_tickets
+
+%table
+  %thead
+    %tr
+      %th Name
+      %th Force
+      %th
+      %th
+      %th
+
+  %tbody
+    - @lottery_tickets.each do |lottery_ticket|
+      %tr
+        %td= lottery_ticket.name
+        %td= lottery_ticket.force
+        %td= link_to 'Show', lottery_ticket
+        %td= link_to 'Edit', edit_lottery_ticket_path(lottery_ticket)
+        %td= link_to 'Destroy', lottery_ticket, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Lottery ticket', new_lottery_ticket_path

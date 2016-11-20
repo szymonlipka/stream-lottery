@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @lottery_ticket.name
+%p
+  %b Force:
+  = @lottery_ticket.force
+
+= link_to 'Edit', edit_lottery_ticket_path(@lottery_ticket)
+\|
+= link_to 'Back', lottery_tickets_path

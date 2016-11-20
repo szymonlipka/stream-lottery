@@ -1,0 +1,1 @@
+json.array! @lottery_tickets, partial: 'lottery_tickets/lottery_ticket', as: :lottery_ticket

@@ -1,0 +1,27 @@
+.lottery
+  .randomizing-part
+    .row
+      .col-xs-12
+        %h3
+          Sub case opening
+    .row
+      .col-xs-12
+        #carusel
+          #owl.owl-carousel
+            - (@lottery_tickets.to_a * 6).each do |ticket|
+              .item
+                = image_tag ticket.image.url(:medium)
+    .row
+      .col-xs-12
+        = link_to 'Open', '#', class: 'btn btn-sm btn-default open-btn'
+  - @lottery_tickets.each_slice(6) do |tickets_chunk|
+    .row
+      - tickets_chunk.each do |ticket|
+        .col-xs-2
+          = image_tag ticket.image.url(:medium), class: 'lottery-ticket-image'
+          
+%link{crossorigin: "anonymous", href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", integrity: "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7", :rel => "stylesheet"}/
+= javascript_include_tag 'owl.carousel.js'
+
+
+

@@ -1,0 +1,27 @@
+= form_for @lottery_ticket do |f|
+  - if @lottery_ticket.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@lottery_ticket.errors.count, "error")} prohibited this lottery_ticket from being saved:"
+      %ul
+        - @lottery_ticket.errors.full_messages.each do |msg|
+          %li= msg
+
+  .form-group
+    %label.col-md-4
+      = f.label :name
+    .col-md-8
+      = f.text_field :name, class: 'form-control'
+  .form-group
+    %label.col-md-4
+      = f.label :force
+    .col-md-8
+      = f.number_field :force, class: 'form-control'
+  .form-group
+    %label.col-md-4.control-label
+    .col-md-8
+      = f.file_field :image
+      
+  .form-group
+    %label.col-md-4
+    .col-md-8
+      = f.submit 'Save'

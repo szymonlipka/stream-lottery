@@ -1,0 +1,18 @@
+I"œ(function() {
+  $(document).ready(function() {
+    var animation, move;
+    move = setInterval(animation, 50);
+    animation = function() {
+      $('.item').css('transform', 'translateY(1px)');
+      if (Math.random() * 100 === 2) {
+        return clearInterval(move);
+      }
+    };
+    return $('.open-btn').click(function(e) {
+      e.preventDefault();
+      return animation();
+    });
+  });
+
+}).call(this);
+:ET
