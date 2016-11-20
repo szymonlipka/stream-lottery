@@ -39,17 +39,9 @@
       <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/visitors/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-              <folding>
-                <marker date="1479678106395" expanded="true" signature="12:115" ph="..." />
-                <marker date="1479678106395" expanded="true" signature="12:951" ph="..." />
-                <marker date="1479678106395" expanded="true" signature="151:951" ph="..." />
-                <marker date="1479678106395" expanded="true" signature="331:951" ph="..." />
-                <marker date="1479678106395" expanded="true" signature="343:501" ph="..." />
-                <marker date="1479678106395" expanded="true" signature="602:739" ph="..." />
-                <marker date="1479678106395" expanded="true" signature="754:951" ph="..." />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -542,12 +534,12 @@
       <workItem from="1479567723109" duration="325000" />
       <workItem from="1479568082881" duration="2308000" />
       <workItem from="1479649994810" duration="4292000" />
-      <workItem from="1479672397143" duration="5146000" />
+      <workItem from="1479672397143" duration="5801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12071000" />
+    <option name="totallyTimeSpent" value="12726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1615" height="1054" extended-state="6" />
@@ -596,15 +588,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <marker date="1479678106395" expanded="true" signature="12:115" ph="..." />
-            <marker date="1479678106395" expanded="true" signature="12:951" ph="..." />
-            <marker date="1479678106395" expanded="true" signature="151:951" ph="..." />
-            <marker date="1479678106395" expanded="true" signature="331:951" ph="..." />
-            <marker date="1479678106395" expanded="true" signature="343:501" ph="..." />
-            <marker date="1479678106395" expanded="true" signature="602:739" ph="..." />
-            <marker date="1479678106395" expanded="true" signature="754:951" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -789,17 +773,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/visitors/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <marker date="1479678106395" expanded="true" signature="12:115" ph="..." />
-            <marker date="1479678106395" expanded="true" signature="12:951" ph="..." />
-            <marker date="1479678106395" expanded="true" signature="151:951" ph="..." />
-            <marker date="1479678106395" expanded="true" signature="331:951" ph="..." />
-            <marker date="1479678106395" expanded="true" signature="343:501" ph="..." />
-            <marker date="1479678106395" expanded="true" signature="602:739" ph="..." />
-            <marker date="1479678106395" expanded="true" signature="754:951" ph="..." />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
